@@ -5,6 +5,27 @@ Lightweight Image Super-Resolution with Information Multi-distillation Network (
 [[Poster]](https://github.com/Zheng222/IMDN/blob/master/images/acmmm19_poster.pdf)
 [[ACM DL]](https://dl.acm.org/citation.cfm?id=3351084)
 
+## Installation with Conda
+
+Requirements:
+
+  * Anaconda / Miniconda [(link)](https://www.anaconda.com/download)
+
+Run the script to install Conda environment
+```./setup.sh```
+
+To activate Conda environment, use the following command:
+```conda activate .venv/IMDN```
+
+## Download training dataset
+
+Requirements:
+
+  * gdown (already included in conda python packages (conda.yaml)) or manually download with ```pip install gdown```
+
+Run the script to download training dataset
+```./download_training_dataset.sh <path/to/dataset/folder>```
+
 ## :sparkles: News
 - Nov 26, 2021. **Add IMDN_RTC tflite model.**
 
